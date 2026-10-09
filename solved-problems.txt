@@ -12,6 +12,7 @@
 14: Longest Common Prefix
 17: Letter Combinations of a Phone Number
 19: Remove Nth Node From End of List
+20: Valid Parentheses
 23: Merge k Sorted Lists HALF
 42: Trapping Rain Water
 48: Rotate Image
