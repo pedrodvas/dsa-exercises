@@ -21,7 +21,7 @@ class Solution:
         return return_list
 
 
-def get_letters(key: chr) -> str:
+def get_letters(key: str) -> str:
     match key:
         case "2":
             return "abc"
@@ -39,6 +39,8 @@ def get_letters(key: chr) -> str:
             return "tuv"
         case "9":
             return "wxyz"
+
+    return "error"
 if __name__ == "__main__":
     s = Solution()
     s.letterCombinations(digits = "23")
