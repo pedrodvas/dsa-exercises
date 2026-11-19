@@ -1,5 +1,4 @@
 before McKinsey interview
-    596
     180
 
 leetcode 150

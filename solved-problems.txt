@@ -35,6 +35,7 @@
 295: Find Median from Data Stream
 394: Decode String
 460: LFU Cache HALF
+596: Classes With at Least 5 Students
 743: Network Delay Time
 767: Reorganize String
 787: Cheapest Flights Within K Stops
