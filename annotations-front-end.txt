@@ -1,0 +1,24 @@
+O Essencial de Front-end (Foco em Lógica, Estado e API)
+Como o foco é Software Engineering na QuantumBlack, se cair front-end, geralmente é React (ou JavaScript/TypeScript puro) consumindo uma API e renderizando dados na tela.
+
+Manipulação de Arrays em JS (90% do trabalho):
+
+.map(): Transforma cada item (no React, é como você transforma uma lista de dados em elementos HTML/JSX).
+
+.filter(): Filtra itens com base numa condição (ex: barra de busca).
+
+.reduce(): Acumula valores (ex: calcular o total de um carrinho).
+
+Ciclo de vida e Estado (React):
+
+useState: Guarda dados que, quando mudam, atualizam a tela (ex: texto de um input, lista vinda da API, estado de loading).
+
+useEffect: Executa efeitos colaterais, principalmente buscar dados na API assim que o componente carrega (useEffect(() => { fetch(...) }, []) — o array vazio [] garante que rode só uma vez).
+
+Consumo de API (fetch + async/await):
+
+Renderização Condicional e Listas:
+
+Mostrar loading ou mensagem de erro antes dos dados chegarem (if (loading) return <p>Carregando...</p>;).
+
+Sempre passar uma prop key única ao fazer .map() no JSX (items.map(item => <li key={item.id}>{item.nome}</li>)).

@@ -1,0 +1,21 @@
+Important commands in SQL
+
+SELECT - extracts data from db
+UPDATE - updates data in db
+DELETE - deletes data from db
+INSERT INTO - inserts new data in database
+CREATE DATABASE
+ALTER DATABASE
+CREATE TABLE
+ALTER TABLE
+DROP TABLE
+CREATE INDEX - creates an index (search key)
+DROP INDEX
+
+
+common types of join
+INNER JOIN - ignores the records where the match
+does not exist.
+LEFT JOIN - shows all of the first table, and appends
+possible results from the second table
+SELF JOIN -
