@@ -19,3 +19,11 @@ does not exist.
 LEFT JOIN - shows all of the first table, and appends
 possible results from the second table
 SELF JOIN -
+
+remember to use ON after all joins. Afterwards,
+you will use your WHERE's to filter the results.
+
+If you need diferent results, use DISTINCT. CAn be
+used after SELECT, and after COUNT.
+
+GROUP BY -> creates new index via you chosen index
