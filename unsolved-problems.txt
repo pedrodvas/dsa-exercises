@@ -1,6 +1,3 @@
-before McKinsey interview
-    180
-
 leetcode 150
     training both logic and speed
 
